@@ -22,3 +22,62 @@ Thumbs.db
 
 # Logs
 *.log
+agentic-ai-research-assistant/
+│
+├── agents/
+│   └── research_agent.py
+│
+├── tools/
+│   ├── web_search.py
+│   ├── pdf_extractor.py
+│   └── citation_tracker.py
+│
+├── interface/
+│   ├── cli.py
+│   └── web_app.py
+│
+├── main.py
+├── requirements.txt
+├── README.md
+├── .env.example
+├── .gitignore
+└── sample_papers/
+
+                    GitHub Repository
+                           │
+                           ▼
+                    README.md
+                           │
+          ┌────────────────┼────────────────┐
+          ▼                ▼                ▼
+      Features         Architecture      Tech Stack
+          │
+          ▼
+       Source Code
+          │
+     ┌────┴─────┐
+     ▼          ▼
+   Agent       Tools
+     │          │
+     ▼          ▼
+   ReAct     Web/PDF
+     │          │
+     └────┬─────┘
+          ▼
+      LLM Tool Calling
+          │
+          ▼
+    Research Results
+
+
+
+    agentic-ai-research-assistant/
+│
+├── agents/
+├── tools/
+├── interface/
+├── main.py
+├── requirements.txt
+├── README.md
+├── .env.example
+└── .gitignore
